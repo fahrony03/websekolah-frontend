@@ -1,4 +1,11 @@
 <?php
+// admin
+use App\Http\Controllers\DashboardController;
+
+
+
+
+
 use App\Http\Controllers\DetailArtikelController;
 use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\KontakController;
@@ -31,3 +38,11 @@ Route::get('/guru', [GuruController::class, 'index']);
 Route::get('/kontak', [KontakController::class, 'index']);
 Route::get('/artikel', [ArtikelController::class, 'index']);
 Route::get('/detailartikel', [DetailArtikelController::class, 'index']);
+
+
+
+// ADMIN
+// Route::get('/admin', [DashboardController::class, 'index']);
+Route::get('/login', function () {
+    return view('admin.dashboard');
+});
