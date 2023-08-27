@@ -31,18 +31,26 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landingpage');
 });
+Route::get('/sambutan', function () {
+    return view('sambutankepala');
+});
+Route::get('/pengumuman', function () {
+    return view('pengumuman');
+});
+
 
 Route::get('/dokumentasi', [DokumentasiController::class, 'index']);
 Route::get('/ekstra', [EkstraController::class, 'index']);
-Route::get('/sambutan', [SambutanController::class, 'index']);
 Route::get('/guru', [GuruController::class, 'index']);
 Route::get('/kontak', [KontakController::class, 'index']);
 Route::get('/artikel', [ArtikelController::class, 'index']);
 Route::get('/detailartikel', [DetailArtikelController::class, 'index']);
-Route::get('/pengumuman', [PengumumanController::class, 'index']);
+
 
 
 // ADMIN
+// Route::resource('/artikel', PengumumanController::class);
+
 Route::get('/login', function () {
     return view('admin.login');
 });
