@@ -43,7 +43,6 @@ Route::get('/pengumuman', [PengumumanController::class, 'index']);
 
 
 // ADMIN
-// Route::get('/admin', [DashboardController::class, 'index']);
 Route::get('/login', function () {
     return view('admin.login');
 });
@@ -51,11 +50,11 @@ Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
 Route::get('/pengumumanadmin', function () {
-    return view('admin.pengumumanadmin');
+    return view('pengumuman.pengumumanadmin');
 });
 Route::get('/galeriadmin', function () {
-    return view('admin.galeriadmin');
+    return view('galeri.galeriadmin');
 });
 Route::get('/beritaadmin', function () {
-    return view('admin.beritaadmin');
+    return view('berita.beritaadmin');
 });

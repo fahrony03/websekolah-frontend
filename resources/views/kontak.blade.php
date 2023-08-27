@@ -7,7 +7,6 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
@@ -21,42 +20,29 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Contact Us</p>
-                    <h1 class="display-5 mb-5">If You Have Any Query, Please Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="fs-5 fw-bold text-primary">Kenali Kami</p>
+                    <h1 class="display-5 mb-5">Jika Anda Memiliki Pertanyaan, Silakan Hubungi Kami</h1>
+                    <p class="mb-4">Hubungi kami melalui kontak dan sosial media sekolah dibawah ini atau langsung ke lokasi sekolah kami disamping!</p>
 
-                    <div class="dbox w-100 d-flex align-items-start">
-                        <div class="icon d-flex align-items-center justify-content-center">
-                            <span class="fa fa-map-marker"></span>
-                        </div>
                         <div class="text pl-3">
-                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                        <p><span>Alamat:</span> Suko Kebun, Mangli, Kec. Pujer, Kabupaten Bondowoso, Jawa Timur 68271</p>
                       </div>
-                  </div>
-                  <div class="dbox w-100 d-flex align-items-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-phone"></span>
-                    </div>
+
+
                     <div class="text pl-3">
-                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    <p><span>Nomer HP:</span> <a href="tel://1234567920">Nomer</a></p>
                   </div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-paper-plane"></span>
-                    </div>
+
+
                     <div class="text pl-3">
-                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">email</a></p>
                   </div>
-              </div>
-              <div class="dbox w-100 d-flex align-items-center">
-                <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-globe"></span>
-                </div>
+
+
                 <div class="text pl-3">
-                <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                <p><span>Website</span> <a href="#">website</a></p>
               </div>
-          </div>
+
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
                     <div class="position-relative rounded overflow-hidden h-100">

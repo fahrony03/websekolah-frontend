@@ -25,20 +25,20 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link" href="/pengumumanadmin">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fas fa-bullhorn"></i>
                     <span>Pengumuman</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="/galeriadmin">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-images"></i>
                     <span>Galeri</span></a>
             </li>
                         <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="/beritaadmin">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-newspaper"></i>
                     <span>Berita</span></a>
             </li>
 

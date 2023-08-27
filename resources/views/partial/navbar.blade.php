@@ -2,7 +2,7 @@
     {{-- <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h1 class="m-0">SMP 1 PUJER</h1>
     </a> --}}
-    <a class="navbar-brand d-flex align-items-center px-4 px-lg-5" href="#">
+    <a class="navbar-brand d-flex align-items-center px-4 px-lg-5" href="/">
         <img src="img/smp1pujer.png" width="50" class="d-inline-block align-top" alt="">
         <h2 class="m-2">SMP 1 PUJER</h2>
         
