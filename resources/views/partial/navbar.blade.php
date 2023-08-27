@@ -16,7 +16,7 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
                 <div class="dropdown-menu bg-light m-0">
-                    <a href="/sambutan" class="dropdown-item">Sambutan Kepala Sekolah</a>
+                    <a href="/sambutan" class="dropdown-item">Prakata Kepala Sekolah</a>
                     <a href="/ekstra" class="dropdown-item">Ekstrakurikuler</a>
                     <a href="/guru" class="dropdown-item">Guru</a>
                 </div>
@@ -24,9 +24,9 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                 <div class="dropdown-menu bg-light m-0">
-                    <a href="" class="dropdown-item">Pengumuman</a>
-                    <a href="/dokumentasi" class="dropdown-item">Dokumentasi</a>
-                    <a href="/artikel" class="dropdown-item">Artikel</a>
+                    <a href="/pengumuman" class="dropdown-item">Pengumuman</a>
+                    <a href="/dokumentasi" class="dropdown-item">Galeri</a>
+                    <a href="/artikel" class="dropdown-item">Berita</a>
                 </div>
             </div>
             <a href="/kontak" class="nav-item nav-link">Kontak</a>
