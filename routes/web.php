@@ -50,4 +50,12 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
-
+Route::get('/pengumumanadmin', function () {
+    return view('admin.pengumumanadmin');
+});
+Route::get('/galeriadmin', function () {
+    return view('admin.galeriadmin');
+});
+Route::get('/beritaadmin', function () {
+    return view('admin.beritaadmin');
+});
