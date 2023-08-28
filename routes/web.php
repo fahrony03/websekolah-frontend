@@ -34,9 +34,9 @@ Route::get('/', function () {
 Route::get('/sambutan', function () {
     return view('sambutankepala');
 });
-Route::get('/pengumuman', function () {
-    return view('pengumuman');
-});
+// Route::get('/pengumuman', function () {
+//     return view('pengumuman');
+// });
 
 
 Route::get('/dokumentasi', [DokumentasiController::class, 'index']);
@@ -49,7 +49,7 @@ Route::get('/detailartikel', [DetailArtikelController::class, 'index']);
 
 
 // ADMIN
-// Route::resource('/artikel', PengumumanController::class);
+Route::resource('/pengumuman', PengumumanController::class);
 
 Route::get('/login', function () {
     return view('admin.login');
@@ -57,9 +57,9 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
-Route::get('/pengumumanadmin', function () {
-    return view('pengumuman.pengumumanadmin');
-});
+// Route::get('/pengumumanadmin', function () {
+//     return view('pengumuman.pengumumanadmin');
+// });
 Route::get('/galeriadmin', function () {
     return view('galeri.galeriadmin');
 });
